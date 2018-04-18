@@ -38,7 +38,9 @@ def rename_all(cwd,remove_word='副本'):
     return
 
 if __name__ == "__main__":
-    chgdir = 'D:/test/DD帐号有水印/'#'D:/test/'
+    #chgdir = 'D:/test/DD帐号有水印/'#'D:/test/'
+    chgdir = 'D:/test/'
+    chgdir = 'D:/test/AUPA095GD-US水印/'
     remove_keyword = ' 副本'
     rename_all(chgdir, remove_keyword)
     if len(sys.argv)>=2:
