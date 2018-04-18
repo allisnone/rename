@@ -55,6 +55,7 @@ if __name__ == "__main__":
         else:
             print('错误： 输入的文件夹不存在，请确认已经建立文件夹 %s' % chgdir)
     else:
+        #默认无参数时
         if os.path.exists(chgdir) and os.path.isdir(chgdir):
             print('本程序将批量重命名默认目录C:/test/下所有递归文件，把文件名中" 副本"字样去掉')
             rename_all(chgdir, remove_keyword)
